@@ -12,10 +12,10 @@ An upgrade over the existing [sync-commands](https://github.com/Androz2091/disco
 
 ## Installation
 
-Install discord-sync-commands-v14 with npm
+Install command-sort with npm
 
 ```bash
-  npm install discord-sync-commands-v14
+  npm install command-sort
 ```
     
 ## Code example.
@@ -23,7 +23,7 @@ Install discord-sync-commands-v14 with npm
 
 
 ```js
-const sync = require('discord-sync-commands-v14');
+const sync = require('command-sort');
 sync(client, [
     {
         name: 'ping',
